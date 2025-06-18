@@ -52,3 +52,9 @@ Thumbs.db
 build/
 dist/
 *.egg-info/
+
+#token
+.token
+*.token
+*.key
+*.pem
