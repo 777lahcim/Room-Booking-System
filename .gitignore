@@ -1,2 +1,54 @@
-.token
+# Środowisko wirtualne
+venv/
+ENV/
+env/
+.venv/
+
+# Pliki Pythona
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Pliki konfiguracyjne IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Baza danych SQLite
+*.sqlite3
+
+# Migracje
+**/migrations/
+!*/migrations/__init__.py
+
+# Logi
+*.log
+
+# Media/Uploaded files
+/media/
+uploads/
+
+# Sekrety
 .env
+.env.local
+.env.dev
+.env.prod
+secrets.json
+
+# Pliki testowe
+coverage.xml
+htmlcov/
+.tox/
+.pytest_cache/
+nosetests.xml
+
+# Pliki systemowe
+.DS_Store
+Thumbs.db
+
+# Build i dist (np. przy użyciu setup.py)
+build/
+dist/
+*.egg-info/
