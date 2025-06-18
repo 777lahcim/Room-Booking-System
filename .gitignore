@@ -1,4 +1,5 @@
 # Środowisko wirtualne
+backend/venv/
 venv/
 ENV/
 env/
