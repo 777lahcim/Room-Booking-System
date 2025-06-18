@@ -27,5 +27,4 @@ urlpatterns = [
     path('api/', include('users.urls')),
     path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),  # logowanie, generuje token
     path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'), # odświeżanie tokena
-
 ]
